@@ -6,7 +6,7 @@ This repository contains our submission for EECS-738: Assignment-3.
 - Pushkar Singh Negi (2946319)
 
 ## Datasets
-We have used the following datasets from UCI-ML site:
+We have used the following datasets (https://en.wikipedia.org/wiki/List_of_datasets_for_machine-learning_research):
 - [default of credit card clients Data Set ](https://www.kaggle.com/uciml/default-of-credit-card-clients-dataset)
 
 ## Demonstration
@@ -16,7 +16,7 @@ The implementation and documentation of neural network along with their demonstr
 ---
 <p align="center"><b>Code Summary</b></p>
 
-## Dataset: Default of credit card clients
+## Dataset 1: Default of credit card clients
 ### Columns
 
 - 1. ID
