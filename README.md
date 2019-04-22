@@ -49,7 +49,6 @@ The implementation and documentation of neural network along with their demonstr
 - Loaded the dataset in a dataframe using pandas.
 - Checked for null values.
 - Removed any unnecessary columns.
-- Now our datatset is ready to be passed through KNN algoirthm
 - Seperated feature columns and the target column.
 - Splitted the data into training set and testing set
 - Now our datatset is ready to be passed through Neural Network model.
