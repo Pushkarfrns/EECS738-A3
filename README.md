@@ -7,43 +7,72 @@ This repository contains our submission for EECS-738: Assignment-3.
 
 ## Datasets
 We have used the following datasets (https://en.wikipedia.org/wiki/List_of_datasets_for_machine-learning_research):
-- [default of credit card clients Data Set ](https://www.kaggle.com/uciml/default-of-credit-card-clients-dataset)
+- [Default of Credit-Card Clients Data Set ](https://www.kaggle.com/uciml/default-of-credit-card-clients-dataset)
+- [Bank Marketing Dataset](https://archive.ics.uci.edu/ml/datasets/bank+marketing)
 
 ## Demonstration
 The implementation and documentation of neural network along with their demonstration on the chosen datasets can be seen in the following notebooks:
-- [Dataset 1](notebooks/Neural_Network_Implementation.ipynb)
+- [Dataset-1](notebooks/Neural_Network_Implementation.ipynb)
+- [Dataset-2](notebooks/Dataset-2.ipynb)
 
 ---
 <p align="center"><b>Code Summary</b></p>
 
-## Dataset 1: Default of credit card clients
+## Dataset 1: Default of Credit-Card Clients
 ### Columns
 
-- 1. ID
-- 2. LIMIT_BAL
-- 3. SEX
-- 4. EDUCATION
-- 5. MARRIAGE
-- 6. AGE
-- 7. PAY_0
-- 8. PAY_2
-- 9. PAY_3
-- 10. PAY_4
-- 11. PAY_5						
-- 12. PAY_6
-- 13. BILL_AMT1
-- 14. BILL_AMT2
-- 15. BILL_AMT3
-- 16. BILL_AMT4
-- 17. BILL_AMT5
-- 18. BILL_AMT6
-- 19. PAY_AMT1
-- 20. PAY_AMT2
-- 21. PAY_AMT3
-- 22. PAY_AMT4
-- 23. PAY_AMT5
-- 24. PAY_AMT6
-- 25. default.payment.next.month
+1. ID
+2. LIMIT_BAL
+3. SEX
+4. EDUCATION
+5. MARRIAGE
+6. AGE
+7. PAY_0
+8. PAY_2
+9. PAY_3
+10. PAY_4
+11. PAY_5						
+12. PAY_6
+13. BILL_AMT1
+14. BILL_AMT2
+15. BILL_AMT3
+16. BILL_AMT4
+17. BILL_AMT5
+18. BILL_AMT6
+19. PAY_AMT1
+20. PAY_AMT2
+21. PAY_AMT3
+22. PAY_AMT4
+23. PAY_AMT5
+24. PAY_AMT6
+25. default.payment.next.month
+
+## Dataset 2: Bank Marketing Dataset
+### Columns
+1. Age
+2. Job 
+3. Marital 
+4. Education
+5. Default
+6. Housing
+7. Loan
+8. Contact
+9. Month
+10. Day_of_week
+11. Duration
+12. Campaign
+13. Pdays
+14. Previous
+15. Poutcome
+16. Emp.var.rate
+17. Cons.price.idx
+18. Cons.conf.idx
+19. Euribor3m
+20. Nr.employed
+
+Output variable (desired target)
+21. Y - has the client subscribed a term deposit? (binary)
+
 
 ### Data Analysis
 - Loaded the dataset in a dataframe using pandas.
